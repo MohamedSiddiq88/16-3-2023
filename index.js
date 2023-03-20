@@ -14,6 +14,7 @@ cont.append(iptdate);
 cont.append(button);
 cont.append(disp);
 function date(){
+    disp.innerHTML="";
     var inputs=document.getElementById("date").value;
 console.log(typeof(inputs));
 if(Date.parse(inputs)){
